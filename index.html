@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The BISONG Blueprint | Your Soul On Air</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --red: #ff0000;
+      --black: #000;
+      --dark: #111;
+      --white: #fff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Oswald', sans-serif;
+      background-color: var(--black);
+      color: var(--white);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, var(--red), var(--black));
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: var(--white);
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0 30px;
+    }
+
+    .btn {
+      background-color: var(--red);
+      color: var(--white);
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      display: inline-block;
+      margin: 10px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--red);
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .feature {
+      background-color: var(--dark);
+      padding: 20px;
+      border-left: 4px solid var(--red);
+    }
+
+    .cta-section {
+      background: var(--dark);
+      text-align: center;
+    }
+
+    ul.checklist {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul.checklist li {
+      margin: 10px 0;
+      padding-left: 25px;
+      background: url('https://img.icons8.com/fluency/24/000000/checkmark.png') no-repeat left center;
+      background-size: 20px;
+    }
+
+    form input, form button {
+      width: 100%;
+      max-width: 400px;
+      padding: 12px;
+      margin: 8px 0;
+      font-size: 1em;
+      border: none;
+      border-radius: 5px;
+    }
+
+    form input {
+      background-color: #222;
+      color: var(--white);
+    }
+
+    form button {
+      background-color: var(--red);
+      color: var(--white);
+      cursor: pointer;
+    }
+
+    .footer {
+      background: var(--dark);
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      .btn {
+        padding: 12px 20px;
+        font-size: 0.9em;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>YOUR SOUL ON AIR.</h1>
+    <p>Download the free PDF guide or enter your circle to broadcast your truth.</p>
+    <a href="#download" class="btn">Download The BISONG Blueprint</a>
+    <a href="#circle" class="btn">Enter the Circle</a>
+  </header>
+
+  <section>
+    <h2>This Is Not Just a Guide…</h2>
+    <p><em>“You were never just here to speak. You were here to transmit.”</em> — From your 80-year-old self</p>
+    <div class="features">
+      <div class="feature">✨ For soul-led creators, coaches, and mystics</div>
+      <div class="feature">🎙️ Activate your Phoenix voice and broadcast power</div>
+      <div class="feature">🌀 5-part transformational series</div>
+      <div class="feature">🔮 Combines astrology, soul strategy, storytelling</div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="download">
+    <h2>What’s Inside the Free Guide</h2>
+    <ul class="checklist">
+      <li>The 5 Phoenix Codes to Activate Your Voice</li>
+      <li>From TV to Transmission: Your Origin Message</li>
+      <li>Map Your Soul Audience & Broadcast Brand</li>
+      <li>Unlock Your “Invisible Force” Authority</li>
+      <li>Oracle Prompts for Spiritual Self-Alignment</li>
+    </ul>
+    <a href="#" class="btn">📥 Download the PDF Guide Now</a>
+  </section>
+
+  <section>
+    <h2>Watch the Transformation Begin</h2>
+    <p>Explore the 5-part video series that brings The BISONG Blueprint to life.</p>
+    <ul class="checklist">
+      <li>“I’m not a content creator. I’m a transmitter of truth.”</li>
+      <li>“You are not doing media. You <strong>are</strong> the broadcast.”</li>
+      <li>“Your audience is already listening. Stop whispering.”</li>
+    </ul>
+    <a href="#" class="btn">🎬 Watch the Video Series</a>
+  </section>
+
+  <section id="circle">
+    <h2>Join the Transformation Circle</h2>
+    <p>Weekly rituals, live oracle drops, and spiritual prompts for visionaries ready to rise.</p>
+    <form>
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="email" placeholder="Your Email" required><br>
+      <button type="submit">🎤 Join the Circle</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p><strong>BISONG SIMON TV</strong><br>Broadcasting Truth, Power & Presence</p>
+    <p>© 2025 BISONG SIMON TV | Motivation | Coaching | Counseling</p>
+  </footer>
+</body>
+</html>
